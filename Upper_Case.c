@@ -1,7 +1,5 @@
-//
-// Created by Kartik Aslia on 07-10-2022.
-//
 #include <stdio.h>
+#include <string.h>
 
 int main() {
     char s[100];
