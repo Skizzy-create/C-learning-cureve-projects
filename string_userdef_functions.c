@@ -31,11 +31,12 @@ int length(char str[50]){
     return count;
 }
 
-void copy(char src[50],char dest[50],int len) {
+void copy(char src[50], char dest[50], int len) {
     for (int i = 0; i < len; i++) {
-        dest[i] = src[len+i];
+        dest[i] = src[i];
     }
-        printf("\nThe copied string is : %s",src);
+    dest[len] = '\0';
+    printf("The copied string is: %s\n", dest);
 }
 
 void reverse(char org[50],int len){
